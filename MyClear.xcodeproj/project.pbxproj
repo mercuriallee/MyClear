@@ -13,6 +13,7 @@
 		F465298F1AD2A16D00A87AF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F465298E1AD2A16D00A87AF9 /* Images.xcassets */; };
 		F46529921AD2A16D00A87AF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46529901AD2A16D00A87AF9 /* LaunchScreen.xib */; };
 		F465299E1AD2A16D00A87AF9 /* MyClearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465299D1AD2A16D00A87AF9 /* MyClearTests.swift */; };
+		F46529AA1AD2A2BF00A87AF9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46529A91AD2A2BF00A87AF9 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F46529971AD2A16D00A87AF9 /* MyClearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyClearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F465299C1AD2A16D00A87AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F465299D1AD2A16D00A87AF9 /* MyClearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClearTests.swift; sourceTree = "<group>"; };
+		F46529A91AD2A2BF00A87AF9 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				F46529871AD2A16D00A87AF9 /* AppDelegate.swift */,
 				F46529891AD2A16D00A87AF9 /* ViewController.swift */,
+				F46529A91AD2A2BF00A87AF9 /* CustomCell.swift */,
 				F465298B1AD2A16D00A87AF9 /* Main.storyboard */,
 				F465298E1AD2A16D00A87AF9 /* Images.xcassets */,
 				F46529901AD2A16D00A87AF9 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F465298A1AD2A16D00A87AF9 /* ViewController.swift in Sources */,
+				F46529AA1AD2A2BF00A87AF9 /* CustomCell.swift in Sources */,
 				F46529881AD2A16D00A87AF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyClear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyClear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
